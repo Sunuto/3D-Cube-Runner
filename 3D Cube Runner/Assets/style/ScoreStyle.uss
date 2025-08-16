@@ -1,0 +1,6 @@
+.score {
+    align-items: auto;
+    align-content: flex-start;
+    align-self: center;
+    -unity-font-style: bold-and-italic;
+}

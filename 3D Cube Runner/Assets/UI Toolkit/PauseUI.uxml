@@ -1,0 +1,4 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Button name="restart" icon-image="project://database/Assets/image/restart.png?fileID=2800000&amp;guid=66c989e39b45c5c4c9ad96a403be9c19&amp;type=3#restart" text="R" focusable="true" style="width: 125px; height: 114px; top: 604px; right: -853px; font-size: 30px; -unity-font-style: bold;" />
+    <engine:Button name="menu" icon-image="project://database/Assets/image/menu.png?fileID=2800000&amp;guid=7eceeba4fea4e6d4c9fcdd722a89e724&amp;type=3#menu" text="M" style="width: 125px; height: 114px; top: 486px; right: -1073px; font-size: 30px; -unity-font-style: bold;" />
+</engine:UXML>

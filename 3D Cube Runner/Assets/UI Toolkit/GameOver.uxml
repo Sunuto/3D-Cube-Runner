@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/style/gameoverr.uss?fileID=7433441132597879392&amp;guid=51c2c1543ac1b2340aa4b38d642a03d3&amp;type=3#gameoverr" />
+    <Style src="project://database/Assets/style/levelB.uss?fileID=7433441132597879392&amp;guid=0b0d439e72fb82145b92e64e26927363&amp;type=3#levelB" />
+    <engine:VisualElement style="flex-grow: 1; background-color: rgba(107, 5, 5, 0.64);">
+        <engine:Label text="GAME" name="Game" class="txt" />
+        <engine:Label text="OVER" class="txt" />
+        <engine:Button name="Restart" icon-image="project://database/Assets/image/restart.png?fileID=2800000&amp;guid=66c989e39b45c5c4c9ad96a403be9c19&amp;type=3#restart" text=" R" class="buttons" style="top: 238px; left: 776px; width: 140px; height: 106px;" />
+        <engine:Button name="Menu" icon-image="project://database/Assets/image/menu.png?fileID=2800000&amp;guid=7eceeba4fea4e6d4c9fcdd722a89e724&amp;type=3#menu" text=" M" class="buttons" style="top: 110px; left: 1004px; width: 144px; height: 109px;" />
+    </engine:VisualElement>
+</engine:UXML>

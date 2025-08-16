@@ -1,0 +1,43 @@
+.buttons {
+    padding-top: 11px;
+    padding-right: 11px;
+    padding-bottom: 11px;
+    padding-left: 11px;
+    margin-top: 11px;
+    margin-right: 11px;
+    margin-bottom: 11px;
+    margin-left: 11px;
+    width: 239px;
+    height: 151px;
+    font-size: 40px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    border-bottom-left-radius: 28px;
+}
+
+.container {
+    flex-direction: row;
+}
+
+.label {
+    width: 108px;
+    height: 112px;
+    font-size: 40px;
+    -unity-font-style: bold;
+}
+
+.container {
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.34);
+    border-top-left-radius: 41px;
+    border-top-right-radius: 41px;
+    border-bottom-right-radius: 41px;
+    border-bottom-left-radius: 41px;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}

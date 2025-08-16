@@ -1,0 +1,10 @@
+.txt {
+    font-size: 144px;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    justify-content: flex-start;
+    align-self: center;
+    letter-spacing: 12px;
+    top: 176px;
+    left: 48px;
+}

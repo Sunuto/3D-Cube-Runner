@@ -1,0 +1,8 @@
+.username-field {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    width: 150px;
+}

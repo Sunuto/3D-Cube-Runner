@@ -1,0 +1,8 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/style/ScoreStyle.uss?fileID=7433441132597879392&amp;guid=eee9c246cc4212d4093806f4b5ff0140&amp;type=3#ScoreStyle" />
+    <engine:VisualElement style="flex-grow: 1;">
+        <engine:Label text="Name:" emoji-fallback-support="true" name="NameDisplay" style="top: 19px; left: 61px; font-size: 40px; color: rgb(128, 73, 0); -unity-font-style: bold-and-italic; -unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=7c4a2b4becb157d4d88e1d59ca9d4168&amp;type=3#NotInter-Regular&quot;); align-content: auto;" />
+        <engine:Label text="High-Score:   0" name="HighScore" class="score" style="white-space: nowrap; font-size: 40px; -unity-font-style: bold-and-italic; color: rgb(165, 23, 23); align-items: auto; justify-content: flex-start; align-self: flex-end; margin-top: 65px; margin-right: 47px; margin-bottom: 47px; margin-left: 47px; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px; text-overflow: clip; top: -105px;" />
+        <engine:Label text="Score:  0" name="Score" class="score" style="white-space: nowrap; font-size: 50px; color: rgb(255, 239, 69); -unity-font-style: bold-and-italic; margin-bottom: 43px; margin-top: 68px; margin-right: 45px; margin-left: 119px;" />
+    </engine:VisualElement>
+</engine:UXML>

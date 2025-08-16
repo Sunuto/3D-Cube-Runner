@@ -1,0 +1,14 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/style/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=8381d8cc5e9066d4db25a0cf5224991a&amp;type=3#MainMenuStyle" />
+    <engine:VisualElement name="VisualElement" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/image/bgmainmenu.png?fileID=2800000&amp;guid=53f824b517ce4184fb3fbd4561194dd5&amp;type=3#bgmainmenu&quot;);">
+        <engine:Label name="NameDisplay" style="margin-top: 36px; left: 42px; font-size: 40px; -unity-font-style: bold-and-italic; color: rgb(159, 88, 0);" />
+        <engine:VisualElement name="Container" style="flex-grow: 1; margin-top: 125px; margin-right: 130px; margin-bottom: 130px; margin-left: 130px; background-image: none; -unity-background-image-tint-color: rgb(255, 255, 255); color: rgb(163, 69, 0); top: -86px; height: 864px;">
+            <engine:Label text="Main Menu" name="header" class="header" style="align-self: center; margin-top: 9px; margin-right: 9px; margin-bottom: 38px; margin-left: 9px; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=7c4a2b4becb157d4d88e1d59ca9d4168&amp;type=3#NotInter-Regular&quot;); -unity-text-outline-width: -100px; font-size: 60px;" />
+            <engine:Button text="Start" name="StartGameButton" class="button" style="margin-top: 15px; margin-right: 15px; margin-bottom: 15px; margin-left: 15px;" />
+            <engine:Button text="Levels" name="Levels" class="button" style="margin-top: 15px; margin-right: 15px; margin-bottom: 15px; margin-left: 15px;" />
+            <engine:Button text="Rename" name="Rename" class="button" style="margin-top: 15px; margin-right: 15px; margin-bottom: 15px; margin-left: 15px;" />
+            <engine:Button text="High Scores" name="highScore" class="button" style="margin-top: 15px; margin-right: 15px; margin-bottom: 15px; margin-left: 15px;" />
+            <engine:Button text="Quit" name="Quit" class="button" style="margin-top: 15px; margin-right: 15px; margin-bottom: 15px; margin-left: 15px; color: rgb(188, 0, 0);" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

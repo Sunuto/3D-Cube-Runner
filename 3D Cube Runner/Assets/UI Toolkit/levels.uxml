@@ -1,0 +1,24 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/style/levelB.uss?fileID=7433441132597879392&amp;guid=0b0d439e72fb82145b92e64e26927363&amp;type=3#levelB" />
+    <engine:VisualElement name="MainLevel" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/image/bgmainmenu.png?fileID=2800000&amp;guid=53f824b517ce4184fb3fbd4561194dd5&amp;type=3#bgmainmenu&quot;); -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(238, 26, 26, 0);">
+        <engine:Label text="Levels" name="Levels" style="font-size: 100px; -unity-font-style: bold; -unity-text-align: upper-center; letter-spacing: 27px; margin-top: 31px; margin-right: 31px; margin-bottom: 31px; margin-left: 31px; padding-top: 39px; padding-right: 39px; padding-bottom: 39px; padding-left: 39px; background-color: rgba(0, 0, 0, 0);" />
+        <engine:VisualElement name="Container" style="flex-grow: 1; flex-direction: row; justify-content: space-around; align-self: auto; align-content: auto; margin-top: 89px; margin-right: 89px; margin-bottom: 89px; margin-left: 89px;">
+            <engine:VisualElement name="Easy" class="container" style="flex-grow: 1; flex-direction: row; background-color: rgba(0, 0, 0, 0.34); border-top-left-radius: 41px; border-top-right-radius: 41px; border-bottom-right-radius: 41px; border-bottom-left-radius: 41px;">
+                <engine:Label text="Easy" name="Easy" style="flex-direction: row; flex-wrap: nowrap; width: 146px; font-size: 40px; top: 28px; -unity-text-align: middle-center; height: 112px; left: 193px; -unity-font-style: bold;" />
+                <engine:Button text="1" name="1" class="buttons" style="flex-direction: row; top: 154px; left: -148px;" />
+                <engine:Button text="2" name="2" class="buttons" style="flex-direction: row; top: 151px; left: -152px;" />
+            </engine:VisualElement>
+            <engine:VisualElement name="Medium" class="container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.48);">
+                <engine:Label text="Medium" name="Medium" class="label" style="top: 64px; left: 184px; width: 166px;" />
+                <engine:Button text="3" name="3" class="buttons" style="top: 145px; left: -160px;" />
+                <engine:Button text="4" name="4" class="buttons" style="top: 144px; left: -162px;" />
+            </engine:VisualElement>
+            <engine:VisualElement name="Hard" class="container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.56); width: 691px;">
+                <engine:Label text="Hard" name="Hard" class="label" style="top: 73px; left: 212px;" />
+                <engine:Button text="5" name="5" class="buttons" style="top: 143px; left: -111px;" />
+                <engine:Button text="6" name="6" class="buttons" style="top: 148px; left: -110px;" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:Button name="Menu" icon-image="project://database/Assets/image/menu.png?fileID=2800000&amp;guid=7eceeba4fea4e6d4c9fcdd722a89e724&amp;type=3#menu" class="buttons" style="align-self: center; width: 119px; height: 98px; top: -117px;" />
+    </engine:VisualElement>
+</engine:UXML>

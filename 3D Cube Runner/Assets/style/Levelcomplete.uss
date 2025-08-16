@@ -1,0 +1,18 @@
+.text {
+    align-self: center;
+    font-size: 100px;
+    -unity-font-style: bold-and-italic;
+    top: 292px;
+}
+
+.NlevelButton :hover {
+    background-color: rgba(220, 115, 26, 0);
+}
+
+.NlevelButton {
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
